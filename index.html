@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d81f6d766d.js" crossorigin="anonymous"></script>
+    <title>Sign-Up Form</title>
+</head>
+
+<body>
+    <div class="split-screen">
+        <div class="left">
+            <section class="copy">
+                <h1>Sign-Up Form</h1>
+                <hr>
+                <p>This is a sign-up form</p>
+            </section>
+            <div class="author">
+                Photo by <a
+                    href="https://unsplash.com/@gigakhurtsilava?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Giga
+                    Khurtsilava</a> on <a
+                    href="https://unsplash.com/s/visual/ca2aa10a-24ab-43a8-8501-98a9664941de?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+        </div>
+        <div class="right">
+            <form>
+                <section class="copy">
+                    <h2>Sign Up</h2>
+                    <hr>
+                    <div class="login-container">
+                        <p>Already have an account? <a href="#"><strong>Log In</strong></a></p>
+                    </div>
+                </section>
+                <div class="input-container name">
+                    <label for="fname">Full Name</label>
+                    <input id="fname" name="fname" type="text">
+                </div>
+                <div class="input-container email">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email">
+                </div>
+                <div class="input-container password">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" placeholder="Must be at least 6 characters">
+                    <i class="far fa-eye-slash"></i>
+                </div>
+                <div class="input-container cta">
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Sign up for email updates.
+                    </label>
+                </div>
+                <button class="signup-btn" type="submit">Sign Up</button>
+                <section class="copy legal">
+                    <p><span class="small">By continuing, you agree
+                            to accept our <br> <a href="#">Privacy
+                                Policy</a> &amp; <a href="#">Terms of
+                                Service</a>.</span></p>
+                </section>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
